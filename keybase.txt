@@ -1,65 +1,68 @@
-==================================================================                                                             
-https://keybase.io/tcarrio                                                                                                     
---------------------------------------------------------------------                                                           
-                                                                                                                               
-I hereby claim:                                                                                                                
-                                                                                                                               
-  * I am an admin of https://tom.carrio.me                                                                                     
-  * I am tcarrio (https://keybase.io/tcarrio) on keybase.                                                                      
-  * I have a public key ASDhHEcpyCMaFgxQOA8hvcnALJtC5lzV-ZV3WlHDOKnOrAo                                                        
-                                                                                                                               
-To do so, I am signing this object:                                                                                            
-                                                                                                                               
-{                                                                                                                              
-    "body": {                                                                                                                  
-        "key": {                                                                                                               
-            "eldest_kid": "010171f129f8dca02bd00cf4be42e5d5613188c00bf90abb6e7cbcf049c120e85a390a",                            
-            "host": "keybase.io",                                                                                              
-            "kid": "0120e11c4729c8231a160c50380f21bdc9c02c9b42e65cd5f995775a51c338a9ceac0a",                                   
-            "uid": "6993cefec47ae7e9d5d74e28588c4b19",                                                                         
-            "username": "tcarrio"                                                                                              
-        },                                                                                                                     
-        "service": {                                                                                                           
-            "hostname": "tom.carrio.me",                                                                                       
-            "protocol": "https:"                                                                                               
-        },                                                                                                                     
-        "type": "web_service_binding",                                                                                         
-        "version": 1                                                                                                           
-    },                                                                                                                         
-    "client": {                                                                                                                
-        "name": "keybase.io go client",                                                                                        
-        "version": "1.0.17"                                                                                                    
-    },                                                                                                                         
-    "ctime": 1472150326,                                                                                                       
-    "expire_in": 504576000,                                                                                                    
-    "merkle_root": {                                                                                                           
-        "ctime": 1472150300,                                                                                                   
-        "hash": "ad9cdcd5d1cb383ec9252edd938e2c50d6545eae520d5d987879615abff6b7f8e91539fd112efa13ec951cf032ac7d1400949c2663b60e
-344fb63a63ecb5e11e",                                                                                                           
-        "seqno": 601698                                                                                                        
-    },                                                                                                                         
-    "prev": "c9b354e0e2035d35bfbecd728f9788647f7f9e13287ee8388abeb8416e9ce2b4",                                                
-    "seqno": 25,                                                                                                               
-    "tag": "signature"                                                                                                         
-}                                                                                                                              
-                                                                                                                               
-which yields the signature:                                                                                                    
-                                                                                                                               
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4RxHKcgjGhYMUDgPIb3JwCybQuZc1fmVd1pRwzipzqwKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp
-7ImVsZGVzdF9raWQiOiIwMTAxNzFmMTI5ZjhkY2EwMmJkMDBjZjRiZTQyZTVkNTYxMzE4OGMwMGJmOTBhYmI2ZTdjYmNmMDQ5YzEyMGU4NWEzOTBhIiwiaG9zdCI6Im
-tleWJhc2UuaW8iLCJraWQiOiIwMTIwZTExYzQ3MjljODIzMWExNjBjNTAzODBmMjFiZGM5YzAyYzliNDJlNjVjZDVmOTk1Nzc1YTUxYzMzOGE5Y2VhYzBhIiwidWlkI
-joiNjk5M2NlZmVjNDdhZTdlOWQ1ZDc0ZTI4NTg4YzRiMTkiLCJ1c2VybmFtZSI6InRjYXJyaW8ifSwic2VydmljZSI6eyJob3N0bmFtZSI6InRvbS5jYXJyaW8ubWUi
-LCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28
-gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3MjE1MDMyNiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxND
-cyMTUwMzAwLCJoYXNoIjoiYWQ5Y2RjZDVkMWNiMzgzZWM5MjUyZWRkOTM4ZTJjNTBkNjU0NWVhZTUyMGQ1ZDk4Nzg3OTYxNWFiZmY2YjdmOGU5MTUzOWZkMTEyZWZhM
-TNlYzk1MWNmMDMyYWM3ZDE0MDA5NDljMjY2M2I2MGUzNDRmYjYzYTYzZWNiNWUxMWUiLCJzZXFubyI6NjAxNjk4fSwicHJldiI6ImM5YjM1NGUwZTIwMzVkMzViZmJl
-Y2Q3MjhmOTc4ODY0N2Y3ZjllMTMyODdlZTgzODhhYmViODQxNmU5Y2UyYjQiLCJzZXFubyI6MjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAGtdlTirra3dmGV96VdE
-P+0feOAUUPrnRqAuY+R4JswFClzzNNLZq5NXER4WDnP1O+vRt192jtBkHX/Nu1/jYB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEpGNKwdNpIG5oB8Mdd6RW
-JCTzaMrogs/mwkfM9qCxK1o3RhZ80CAqd2ZXJzaW9uAQ==                                                                                 
-                                                                                                                               
-And finally, I am proving ownership of this host by posting or                                                                 
-appending to this document.                                                                                                    
-                                                                                                                               
-View my publicly-auditable identity here: https://keybase.io/tcarrio                                                           
-                                                                                                                               
-================================================================== 
+==================================================================
+https://keybase.io/tcarrio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tom.carrio.me
+  * I am tcarrio (https://keybase.io/tcarrio) on keybase.
+  * I have a public key with fingerprint CC75 974F E802 E00E 2A7C  9C65 3F3E B2B6 8E3F 5DEC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101540e68853fd2eb3d6c5256ed6c53488a35dd3cfdb32e00db8a45948b521b0dfe0a",
+            "fingerprint": "cc75974fe802e00e2a7c9c653f3eb2b68e3f5dec",
+            "host": "keybase.io",
+            "key_id": "3f3eb2b68e3f5dec",
+            "kid": "0101540e68853fd2eb3d6c5256ed6c53488a35dd3cfdb32e00db8a45948b521b0dfe0a",
+            "uid": "6993cefec47ae7e9d5d74e28588c4b19",
+            "username": "tcarrio"
+        },
+        "service": {
+            "hostname": "tom.carrio.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488396875,
+    "expire_in": 157680000,
+    "prev": "c5990103f3a4a6567ecc9cab78aa028ec7be6d643af98fcfd4ba744a450344fa",
+    "seqno": 62,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMIlAnicrZJbSBVBHMZXTVOhNEPIhy5slBF22svs7uyBiOgC0QUKCcXkNLv73+Pm
+8exxd9VOIiQFhdFDRTe66CELonyqNMvK7EImZJgQlYlIWQ8R5EkwutCs1VuPzcsw
+M9/3zTc/5sGMNCY75VMiUbfOYFam9N07WcOUdLAb6lnNNuJssJ6thKkJIga4XqjS
+Mtggy/EcLyEOZIwl0TQE0ERD1iVBksGfRYQxESXDEHXT0EQBOM7QMEGSirAmCbzG
+GSZwhC1iTSsaBifmWFGPxuq6IqkKMgFzvgcEouiqLtMrRNAETcYgmpIBOjVW2K7v
+oOU04kLAsukeXYSm6v1D/59710zFyaoq6mCCjhQCCqiGZCgIBCxhrCONV32hC06U
+VAFVezpxHFq0oYilm7WWDj5X/yF/BXZV4LcmQNdFbMyxPVu3I/SowvNibtC3evGY
+r60DLfQnJaRZUYNypI5acFzLjrJBnip1z/JjefooUZWxIhWxsCtmORCyfIWkyJij
+w78Han36kqpSQBQeQUSWZAV0Sp9oCiaEEzDoigayISORmCo2KSGkEQUhiocTETJ9
+LC5UR202KAu0JwnTTNcKR4lX4wDb0NO9fRqTks1kpKf6H4zJzsr9++2crEymJ318
+feuDC3cHN5cnyUh+SXJm9Oyd1DNdb8aep35/tPbTx6S3tRh3HLiWmwh8PpiaVjj/
+8IumXtTfLQ6cn7x88CZf0f6j7ujQnoyCwS1HxnYv6D96vH3mxrerl+wY+lmcM94f
+XtjSteb068HRuSfud79vGBq/NVHXWRjp4b++bmmbvffltrLJ040Z/OiGrJLaI+0z
+JkaWxNc3T5RGDj9mVry6nvcwnixddPvQs93TV7d1lCWSc0Kdl3Jaz8258XFz876d
+99zlab25H74MTCyT0wvC5zoTa6s2Db+7sjh//El808VYZh9zrKl8OK/ZzKxus+ch
+WDVrf2Nb5Om3Uw09w0vhahMK/AI1rEkN
+=437D
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tcarrio
+
+==================================================================
