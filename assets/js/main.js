@@ -169,19 +169,30 @@ class TextScramble {
 
 
 					// Scramble roles
+					function shuffleArray(array) {
+					    for (let i = array.length - 1; i > 0; i--) {
+					        const j = Math.floor(Math.random() * (i + 1));
+					        [array[i], array[j]] = [array[j], array[i]];
+					    }
+					}
+
+
 
 					let roles = [
-						"Full Stack Developor",
+						"Full Stack Developer",
 						"Software Engineer",
-        		"DevOps",
-        		"System Administrator",
-        		"Database Administrator",
+        					"DevOps",
+        					"System Administrator",
+        					"Database Administrator",
 						"Cloud Engineer"
 					]
 					const elRole = document.querySelector("#roles")
 					const fxRole = new TextScramble(elRole)
 					let counterRole = 0
 					const nextRole = () => {
+					  if(counterRole == 0) {
+						  shuffleArray(roles);
+					  }
 					  fxRole.setText(roles[counterRole]).then(() => {
 					    setTimeout(nextRole, 800)
 					  })
@@ -192,19 +203,36 @@ class TextScramble {
 					let interests = [
 						"Containers",
 						"REST",
-						"GraphQL",
 						"Java EE",
 						"Python",
 						"Agile",
 						"Go",
-						"Service-Oriented Architecture",
-						"Automation"
+						"Micro-Services",
+						"Automation",
+						"Orchestration",
+						"Backend",
+						"Databases",
+						"Cloud",
+						"DevOps",
+						"Tinkering",
+						"Open Source",
+						"Linux",
+						"Enabling Users",
+						"Web Development",
+						"Mobile technologies",
+						"IT",
+						"Administration",
+						"Solutions Architecting",
+						"Security"
 					]
 
 					const elInterest = document.querySelector("#interests")
 					const fxInterest = new TextScramble(elInterest)
 					let counterInterest = 0
 					const nextInterest = () => {
+					  if(counterInterest == 0) {
+						  shuffleArray(interests);
+					  }
 					  fxInterest.setText(interests[counterInterest]).then(() => {
 					    setTimeout(nextInterest, 800)
 					  })
@@ -212,15 +240,9 @@ class TextScramble {
 					}
 					nextInterest()
 
-					//scrambleElementWith("#roles", roles);
-					//scrambleElementWith("#interests", interests);
-
-
 				});
 
 
-		// Main Sections: Three.
-		//
 	});
 
 })(jQuery);
