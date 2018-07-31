@@ -1959,7 +1959,7 @@
 			padding: 0;
 		}
 
-/* Icon */
+/* Icon Old
 
 	.icon {
 		text-decoration: none;
@@ -1979,7 +1979,17 @@
 		.icon > .label {
 			display: none;
 		}
+*/
 
+/* Icon New */
+	.icon {
+		size: 6em;
+		text-decoration: none;
+	}
+
+	.icon > .label {
+		display: none;
+	}
 /* Image */
 
 	.image {
