@@ -1,0 +1,43 @@
+#new-website-override {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(25, 30, 35, 0.95);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  font-family: monospace;
+  color: white;
+}
+
+#new-website-override .main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#new-website-override .title {
+  font-weight: bold;
+}
+
+/* #new-website-override.main-content {
+  margin: 0px;
+  width: 100%;
+  min-height: 85%;
+}
+
+#new-website-override.transition {
+  margin: 0px;
+  width: 100%;
+  min-height: 15%;
+
+  background-color: white;
+} */
+
